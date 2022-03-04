@@ -96,7 +96,7 @@ namespace cs_resume_creator
             this.email_label.AutoSize = true;
             this.email_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.email_label.Location = new System.Drawing.Point(109, 118);
+            this.email_label.Location = new System.Drawing.Point(91, 118);
             this.email_label.Name = "email_label";
             this.email_label.Size = new System.Drawing.Size(58, 20);
             this.email_label.TabIndex = 2;
@@ -150,11 +150,11 @@ namespace cs_resume_creator
             this.car_obj_label.AutoSize = true;
             this.car_obj_label.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.car_obj_label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.car_obj_label.Location = new System.Drawing.Point(20, 314);
+            this.car_obj_label.Location = new System.Drawing.Point(75, 316);
             this.car_obj_label.Name = "car_obj_label";
-            this.car_obj_label.Size = new System.Drawing.Size(129, 19);
+            this.car_obj_label.Size = new System.Drawing.Size(80, 19);
             this.car_obj_label.TabIndex = 12;
-            this.car_obj_label.Text = "Career Objective:";
+            this.car_obj_label.Text = "CAREER:";
             // 
             // car_obj_richbox
             // 
@@ -172,9 +172,9 @@ namespace cs_resume_creator
             this.prof_att_label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.prof_att_label.Location = new System.Drawing.Point(387, 86);
             this.prof_att_label.Name = "prof_att_label";
-            this.prof_att_label.Size = new System.Drawing.Size(166, 19);
+            this.prof_att_label.Size = new System.Drawing.Size(84, 19);
             this.prof_att_label.TabIndex = 13;
-            this.prof_att_label.Text = "Professional Attributes:";
+            this.prof_att_label.Text = "Profession:";
             // 
             // prof_att_richbox
             // 
@@ -232,9 +232,9 @@ namespace cs_resume_creator
             this.cert_etc_label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cert_etc_label.Location = new System.Drawing.Point(762, 245);
             this.cert_etc_label.Name = "cert_etc_label";
-            this.cert_etc_label.Size = new System.Drawing.Size(330, 19);
+            this.cert_etc_label.Size = new System.Drawing.Size(87, 19);
             this.cert_etc_label.TabIndex = 16;
-            this.cert_etc_label.Text = "Certification, Workshops, and Seminar Attended";
+            this.cert_etc_label.Text = "Certificates";
             // 
             // cert_etc_richbox
             // 
