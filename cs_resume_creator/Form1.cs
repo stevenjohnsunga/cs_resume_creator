@@ -26,11 +26,28 @@ namespace cs_resume_creator
 
         private void resume_Load(object sender, EventArgs e)
         {
-
+            fullname_textbox.Enabled = true;
+            address_richbox.Enabled = true;
+            email_richbox.Enabled = true;
+            mobile_textbox.Enabled = true;
+            car_obj_richbox.Enabled = true;
+            prof_att_richbox.Enabled = true;
+            educ_richbox.Enabled = true;
+            extra_act_ricbox.Enabled = true;
+            cert_etc_richbox.Enabled = true;
         }
 
         private void pdf_resume_Click(object sender, EventArgs e)
         {
+            fullname_textbox.Enabled = true;
+            address_richbox.Enabled = true;
+            email_richbox.Enabled = true;
+            mobile_textbox.Enabled = true;
+            car_obj_richbox.Enabled = true;
+            prof_att_richbox.Enabled = true;
+            educ_richbox.Enabled = true;
+            extra_act_ricbox.Enabled = true;
+            cert_etc_richbox.Enabled = true;
             // WRITE PDF
             Document PDFresume = new Document();
             PdfWriter.GetInstance(PDFresume, new FileStream(@"C:\Users\User\Downloads\pdf-resume-creator-main\cs_resume_creator\cs_resume_creator\SUNGA_STEVEN_JOHN.pdf", FileMode.Create));
@@ -38,10 +55,10 @@ namespace cs_resume_creator
 
             Paragraph fname = new Paragraph(fullname_textbox.Text);
             Paragraph add = new Paragraph(address_richbox.Text);
-            Paragraph emailMobile = new Paragraph(email_richbox.Text+" | Mobile No: "+mobile_textbox.Text+"\n\n");
-            Paragraph carObj = new Paragraph("Career "+"\n"+"     " + car_obj_richbox.Text+"\n\n");
-            Paragraph profAtt = new Paragraph("Proffesional "+"\n"+"     " + prof_att_richbox.Text+"\n\n");
-            Paragraph tert = new Paragraph("Education"+"\n\n"+"Tertiary: "+educ_richbox.Text+ "\n\n");
+            Paragraph emailMobile = new Paragraph(email_richbox.Text + " | Mobile No: " + mobile_textbox.Text + "\n\n");
+            Paragraph carObj = new Paragraph("Career " + "\n" + "     " + car_obj_richbox.Text + "\n\n");
+            Paragraph profAtt = new Paragraph("Proffesional " + "\n" + "     " + prof_att_richbox.Text + "\n\n");
+            Paragraph tert = new Paragraph("Education" + "\n\n" + "Tertiary: " + educ_richbox.Text + "\n\n");
             Paragraph extAct = new Paragraph("Extraculicular Activity" + "\n" + "     " + extra_act_ricbox.Text + "\n\n");
             Paragraph cert = new Paragraph("Certificates" + "\n" + "     " + cert_etc_richbox.Text + "\n\n\n");
 
