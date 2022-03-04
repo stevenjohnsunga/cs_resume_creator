@@ -39,11 +39,11 @@ namespace cs_resume_creator
             Paragraph fname = new Paragraph(fullname_textbox.Text);
             Paragraph add = new Paragraph(address_richbox.Text);
             Paragraph emailMobile = new Paragraph(email_richbox.Text+" | Mobile No: "+mobile_textbox.Text+"\n\n");
-            Paragraph carObj = new Paragraph("Career Objective"+"\n"+"     " + car_obj_richbox.Text+"\n\n");
-            Paragraph profAtt = new Paragraph("Proffesional Atributes"+"\n"+"     " + prof_att_richbox.Text+"\n\n");
+            Paragraph carObj = new Paragraph("Career "+"\n"+"     " + car_obj_richbox.Text+"\n\n");
+            Paragraph profAtt = new Paragraph("Proffesional "+"\n"+"     " + prof_att_richbox.Text+"\n\n");
             Paragraph tert = new Paragraph("Education"+"\n\n"+"Tertiary: "+educ_richbox.Text+ "\n\n");
             Paragraph extAct = new Paragraph("Extraculicular Activity" + "\n" + "     " + extra_act_ricbox.Text + "\n\n");
-            Paragraph cert = new Paragraph("Certificate, Workshops, and Seminar Attended" + "\n" + "     " + cert_etc_richbox.Text + "\n\n\n");
+            Paragraph cert = new Paragraph("Certificates" + "\n" + "     " + cert_etc_richbox.Text + "\n\n\n");
 
             PDFresume.Open();
             PDFresume.Add(fname);
